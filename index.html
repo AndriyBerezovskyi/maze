@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stopwatch</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <h3 id="indicator">Pause</h3>
+
+    <div class="stopwatch">
+      00 : 00 : 00 : 000
+    </div>
+
+    <button id="reset">Reset</button>
+
+    <div id="maze">
+      <div class="block top-left"></div>
+      <div class="block top-center"></div>
+      <div class="block top-right"></div>
+      <div class="block bottom-left"></div>
+      <div class="block bottom-center"></div>
+      <div class="block bottom-right"></div>
+
+      <div class="start"></div>
+      <div class="finish"></div>
+    </div>
+
+    <div>
+      <h3>Scoreboard</h3>
+      <ol class="scoreboard">
+      </ol>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+  </body>
+</html>
