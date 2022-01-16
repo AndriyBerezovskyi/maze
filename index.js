@@ -77,7 +77,7 @@ function onLeave() {
 function onMazeOver(e) {
   if (isPlay && e.target.classList.contains('block')) {
     isPlayActive();
-    refs.indicator.textContent = 'You loose!';
+    refs.indicator.textContent = 'You lose!';
   }
 }
 
